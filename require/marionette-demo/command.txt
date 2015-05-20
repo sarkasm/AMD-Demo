@@ -1,0 +1,19 @@
+
+Build:
+None
+BUT can use r.js as an optimizer which will be a concatonated file.
+
+
+Serve:
+grunt work
+http://localhost:8000/index.html
+
+
+http://requirejs.org/
+
+
+Uses AMD Syntax
+---------------------
+define(['my-dependency'], function(MyDependency) {
+  return function() {};
+});

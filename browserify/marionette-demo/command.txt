@@ -1,0 +1,20 @@
+
+Build:
+browserify . -d -o browserified.js
+
+or use grunt plugin
+
+Serve:
+grunt work
+http://localhost:8000/index.html
+
+
+http://browserify.org/
+
+http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html
+
+
+Uses CommonJS Syntax
+---------------------
+var MyDependency = require('my-dependency');
+module.exports = function() {};

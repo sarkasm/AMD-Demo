@@ -1,0 +1,17 @@
+
+Build:
+webpack --progress --colors --watch
+
+Serve:
+grunt work
+http://localhost:8000/index.html
+
+http://webpack.github.io/
+
+
+Uses CommonJS Syntax
+---------------------
+define(['my-dependency'], function(MyDependency) {
+  return function() {};
+});
+

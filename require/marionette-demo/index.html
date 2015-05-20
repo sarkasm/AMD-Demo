@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script data-main="app" src="require.js"></script>
+  </head>
+  <body>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+
+<!----------------- BEGIN Templates ------------------------>
+
+    <script type="text/template" id="contact-template">
+        <td><%= firstName %> </td>
+        <td><%= lastName %> </td>
+        <td><%= country %> </td>
+        <td><span class="btn btn-default">delete</span></td>
+    </script>
+
+    <script type="text/template" id="contacts-form">
+      <form class="form-inline" role="form">
+        <input class="form-control" type="text" id="contact_first_name" placeholder="FirstName"></input>
+        <input class="form-control" type="text" id="contact_last_name" placeholder="LastName"></input>
+        <input class="form-control" type="text" id="contact_country" placeholder="USA"></input>
+        <span class="btn btn-primary" id="add">add</span>
+      </form>
+    </script>
+
+    <script type="text/template" id="contact-detail-template">
+      <div >
+        <%= firstName %> <br/>
+        <%= lastName %> <br/>
+        <%= country %> <br/>
+      </div>
+    </script>
+
+
+    <script type="text/template" id="contacts-table">
+      <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Country</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      </table>
+    </script>
+
+<!----------------- END Templates ------------------------>
+
+    <div id="form-region"></div>
+    <div class="container" id="contacts_list"></div>
+    
+  </body>
+</html>
