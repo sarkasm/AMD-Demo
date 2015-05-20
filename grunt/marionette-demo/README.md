@@ -8,13 +8,13 @@ Grunt can do other tasks such as minify the contents but minification has not be
 Dependencies are listed in the Gruntfile. Grunt work command will kick off the build process and files we be re-concatonated as the source files change.
 
 ### Setup:
-`
+```
 npm install
-`
+```
 
 ### Serve:
-`
+```
 grunt work
 http://localhost:8000/index.html
-`
+```
 

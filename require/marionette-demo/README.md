@@ -10,23 +10,24 @@ There is no required build process but there is an optimization using `r.js` tha
 ### Dependency Syntax
 ---
 Uses AMD Syntax
-
+```
 define(['my-dependency'], function(MyDependency) {
   return function() {};
 });
+```
 
 ### Setup:
 ---
-`
+```
 npm install
-`
+```
 
 ### Serve:
 ---
-`
+```
 grunt work
 http://localhost:8000/index.html
-`
+```
 
 ### Links:
 ---

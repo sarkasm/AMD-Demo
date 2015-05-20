@@ -11,23 +11,24 @@ or use grunt plugin
 ### Dependency Syntax
 ---
 Uses CommonJS Syntax
-
+```
 var MyDependency = require('my-dependency');
 module.exports = function() {};
+```
 
 ### Setup:
 ---
-`
+```
 npm install -g browserify
 npm install
-`
+```
 
 ### Serve:
 ---
-`
+```
 grunt work
 http://localhost:8000/index.html
-`
+```
 
 
 ### Links:
