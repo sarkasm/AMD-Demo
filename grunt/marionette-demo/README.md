@@ -13,7 +13,8 @@ npm install
 `
 
 ### Serve:
+`
 grunt work
 http://localhost:8000/index.html
-
+`
 

@@ -19,7 +19,7 @@ define(['marionette'], function (Marionette) {
         var _this = this;
         require(['contact-model', 'contact-detail-view.js'], 
           function(Contact, ContactDetailView){
-            var contact = new Contact({firstName: "Hard", lastName: "Coded", country: "Australia"});
+            var contact = new Contact({firstName: "Homer", lastName: "Simpson", country: "USA"});
             _this.app.form_region.show(new ContactDetailView({model: contact}));
             _this.app.contacts_list.reset();
           }
