@@ -1,4 +1,3 @@
-
 var app = new Backbone.Marionette.Application();
 app.addRegions({
   form_region: "#form-region",

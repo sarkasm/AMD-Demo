@@ -9,3 +9,4 @@ var ContactView = Backbone.Marionette.ItemView.extend({
     this.model.collection.remove(this.model);
   }
 });
+
