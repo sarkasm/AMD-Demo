@@ -18,7 +18,7 @@ var router = Marionette.Controller.extend({
       var _this = this;
       var Contact = require("./contact-model.js");
       var ContactDetailView = require("./contact-detail-view.js");
-      var contact = new Contact({firstName: "Hard", lastName: "Coded", country: "Australia"});
+      var contact = new Contact({firstName: "Homer", lastName: "Simpson", country: "USA"});
       this.app.form_region.show(new ContactDetailView({model: contact}));
       this.app.contacts_list.reset();
     }

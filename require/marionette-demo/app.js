@@ -1,5 +1,3 @@
-"use strict";
-
 requirejs.config({
   paths: {
     "underscore": "//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore",
@@ -24,7 +22,7 @@ requirejs.config({
 
 define(["backbone", "marionette", "router"], function (Backbone, Marionette, Router) {
 
-  var app = new Marionette.Application();
+  var app = window.app = new Backbone.Marionette.Application();
 
   app.addRegions({
     form_region: "#form-region",

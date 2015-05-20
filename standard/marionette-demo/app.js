@@ -1,5 +1,5 @@
 
-var app = new Backbone.Marionette.Application();
+var app = window.app = new Backbone.Marionette.Application();
 app.addRegions({
   form_region: "#form-region",
   contacts_list: "#contacts_list"
