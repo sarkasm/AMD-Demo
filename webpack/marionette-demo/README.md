@@ -34,3 +34,6 @@ http://localhost:8000/index.html
 ### Links:
 ---
 http://webpack.github.io/
+
+Great video on how Instagram uses Webpack
+https://www.youtube.com/watch?v=VkTCL6Nqm6Y
